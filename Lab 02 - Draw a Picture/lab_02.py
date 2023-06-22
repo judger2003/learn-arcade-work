@@ -1,0 +1,10 @@
+import arcade
+arcade.open_window(width=1000, height=1000, window_title="Myproduct")
+arcade.set_background_color(arcade.csscolor.SKY_BLUE)
+arcade.start_render()
+arcade.draw_lrtb_rectangle_filled(0, 999, 499, 0, arcade.csscolor.BROWN)
+arcade.draw_circle_filled(249, 749, 100, arcade.csscolor.RED)
+arcade.draw_circle_filled(99, 499, 10, arcade.csscolor.GRAY)
+arcade.draw_text("Let 's come from it !", 499, 749, arcade.csscolor.GREEN, 20)
+arcade.finish_render()
+arcade.run()
